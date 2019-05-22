@@ -1,0 +1,1123 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "cp1-begin": {
+      "root": "",
+      "sourceRoot": "checkpoints/checkpoint1/begin/src",
+      "projectType": "application",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist",
+            "index": "checkpoints/checkpoint1/begin/src/index.html",
+            "main": "checkpoints/checkpoint1/begin/src/main.ts",
+            "tsConfig": "checkpoints/checkpoint1/begin/src/tsconfig.app.json",
+            "polyfills": "checkpoints/checkpoint1/begin/src/polyfills.ts",
+            "assets": [
+              "checkpoints/checkpoint1/begin/src/assets",
+              "checkpoints/checkpoint1/begin/src/favicon.ico"
+            ],
+            "styles": [
+              "checkpoints/checkpoint1/begin/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "cp1-begin:build"
+          },
+          "configurations": {}
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "cp1-begin:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "checkpoints/checkpoint1/begin/src/undefined",
+            "karmaConfig": "./karma.conf.js",
+            "polyfills": "checkpoints/checkpoint1/begin/src/polyfills.ts",
+            "scripts": [],
+            "styles": [
+              "checkpoints/checkpoint1/begin/src/styles.scss"
+            ],
+            "assets": [
+              "checkpoints/checkpoint1/begin/src/assets",
+              "checkpoints/checkpoint1/begin/src/favicon.ico"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "src/tsconfig.app.json",
+              "src/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "cp1-end": {
+      "root": "",
+      "sourceRoot": "checkpoints/checkpoint1/end/src",
+      "projectType": "application",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist",
+            "index": "checkpoints/checkpoint1/end/src/index.html",
+            "main": "checkpoints/checkpoint1/end/src/main.ts",
+            "tsConfig": "checkpoints/checkpoint1/end/src/tsconfig.app.json",
+            "polyfills": "checkpoints/checkpoint1/end/src/polyfills.ts",
+            "assets": [
+              "checkpoints/checkpoint1/end/src/assets",
+              "checkpoints/checkpoint1/end/src/favicon.ico"
+            ],
+            "styles": [
+              "checkpoints/checkpoint1/end/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "cp1-end:build"
+          },
+          "configurations": {}
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "cp1-end:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "checkpoints/checkpoint1/end/src/undefined",
+            "karmaConfig": "./karma.conf.js",
+            "polyfills": "checkpoints/checkpoint1/end/src/polyfills.ts",
+            "scripts": [],
+            "styles": [
+              "checkpoints/checkpoint1/end/src/styles.scss"
+            ],
+            "assets": [
+              "checkpoints/checkpoint1/end/src/assets",
+              "checkpoints/checkpoint1/end/src/favicon.ico"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "src/tsconfig.app.json",
+              "src/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "cp2-begin": {
+      "root": "",
+      "sourceRoot": "checkpoints/checkpoint2/begin/src",
+      "projectType": "application",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist",
+            "index": "checkpoints/checkpoint2/begin/src/index.html",
+            "main": "checkpoints/checkpoint2/begin/src/main.ts",
+            "tsConfig": "checkpoints/checkpoint2/begin/src/tsconfig.app.json",
+            "polyfills": "checkpoints/checkpoint2/begin/src/polyfills.ts",
+            "assets": [
+              "checkpoints/checkpoint2/begin/src/assets",
+              "checkpoints/checkpoint2/begin/src/favicon.ico"
+            ],
+            "styles": [
+              "checkpoints/checkpoint2/begin/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "cp2-begin:build"
+          },
+          "configurations": {}
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "cp2-begin:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "checkpoints/checkpoint2/begin/src/undefined",
+            "karmaConfig": "./karma.conf.js",
+            "polyfills": "checkpoints/checkpoint2/begin/src/polyfills.ts",
+            "scripts": [],
+            "styles": [
+              "checkpoints/checkpoint2/begin/src/styles.scss"
+            ],
+            "assets": [
+              "checkpoints/checkpoint2/begin/src/assets",
+              "checkpoints/checkpoint2/begin/src/favicon.ico"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "src/tsconfig.app.json",
+              "src/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "cp2-end": {
+      "root": "",
+      "sourceRoot": "checkpoints/checkpoint2/end/src",
+      "projectType": "application",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist",
+            "index": "checkpoints/checkpoint2/end/src/index.html",
+            "main": "checkpoints/checkpoint2/end/src/main.ts",
+            "tsConfig": "checkpoints/checkpoint2/end/src/tsconfig.app.json",
+            "polyfills": "checkpoints/checkpoint2/end/src/polyfills.ts",
+            "assets": [
+              "checkpoints/checkpoint2/end/src/assets",
+              "checkpoints/checkpoint2/end/src/favicon.ico"
+            ],
+            "styles": [
+              "checkpoints/checkpoint2/end/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "cp2-end:build"
+          },
+          "configurations": {}
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "cp2-end:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "checkpoints/checkpoint2/end/src/undefined",
+            "karmaConfig": "./karma.conf.js",
+            "polyfills": "checkpoints/checkpoint2/end/src/polyfills.ts",
+            "scripts": [],
+            "styles": [
+              "checkpoints/checkpoint2/end/src/styles.scss"
+            ],
+            "assets": [
+              "checkpoints/checkpoint2/end/src/assets",
+              "checkpoints/checkpoint2/end/src/favicon.ico"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "src/tsconfig.app.json",
+              "src/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "cp3-begin": {
+      "root": "",
+      "sourceRoot": "checkpoints/checkpoint3/begin/src",
+      "projectType": "application",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist",
+            "index": "checkpoints/checkpoint3/begin/src/index.html",
+            "main": "checkpoints/checkpoint3/begin/src/main.ts",
+            "tsConfig": "checkpoints/checkpoint3/begin/src/tsconfig.app.json",
+            "polyfills": "checkpoints/checkpoint3/begin/src/polyfills.ts",
+            "assets": [
+              "checkpoints/checkpoint3/begin/src/assets",
+              "checkpoints/checkpoint3/begin/src/favicon.ico"
+            ],
+            "styles": [
+              "checkpoints/checkpoint3/begin/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "cp3-begin:build"
+          },
+          "configurations": {}
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "cp3-begin:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "checkpoints/checkpoint3/begin/src/undefined",
+            "karmaConfig": "./karma.conf.js",
+            "polyfills": "checkpoints/checkpoint3/begin/src/polyfills.ts",
+            "scripts": [],
+            "styles": [
+              "checkpoints/checkpoint3/begin/src/styles.scss"
+            ],
+            "assets": [
+              "checkpoints/checkpoint3/begin/src/assets",
+              "checkpoints/checkpoint3/begin/src/favicon.ico"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "src/tsconfig.app.json",
+              "src/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "cp3-end": {
+      "root": "",
+      "sourceRoot": "checkpoints/checkpoint3/end/src",
+      "projectType": "application",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist",
+            "index": "checkpoints/checkpoint3/end/src/index.html",
+            "main": "checkpoints/checkpoint3/end/src/main.ts",
+            "tsConfig": "checkpoints/checkpoint3/end/src/tsconfig.app.json",
+            "polyfills": "checkpoints/checkpoint3/end/src/polyfills.ts",
+            "assets": [
+              "checkpoints/checkpoint3/end/src/assets",
+              "checkpoints/checkpoint3/end/src/favicon.ico"
+            ],
+            "styles": [
+              "checkpoints/checkpoint3/end/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "cp3-end:build"
+          },
+          "configurations": {}
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "cp3-end:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "checkpoints/checkpoint3/end/src/undefined",
+            "karmaConfig": "./karma.conf.js",
+            "polyfills": "checkpoints/checkpoint3/end/src/polyfills.ts",
+            "scripts": [],
+            "styles": [
+              "checkpoints/checkpoint3/end/src/styles.scss"
+            ],
+            "assets": [
+              "checkpoints/checkpoint3/end/src/assets",
+              "checkpoints/checkpoint3/end/src/favicon.ico"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "src/tsconfig.app.json",
+              "src/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "cp4-begin": {
+      "root": "",
+      "sourceRoot": "checkpoints/checkpoint4/begin/src",
+      "projectType": "application",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist",
+            "index": "checkpoints/checkpoint4/begin/src/index.html",
+            "main": "checkpoints/checkpoint4/begin/src/main.ts",
+            "tsConfig": "checkpoints/checkpoint4/begin/src/tsconfig.app.json",
+            "polyfills": "checkpoints/checkpoint4/begin/src/polyfills.ts",
+            "assets": [
+              "checkpoints/checkpoint4/begin/src/assets",
+              "checkpoints/checkpoint4/begin/src/favicon.ico"
+            ],
+            "styles": [
+              "checkpoints/checkpoint4/begin/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "cp4-begin:build"
+          },
+          "configurations": {}
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "cp4-begin:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "checkpoints/checkpoint4/begin/src/undefined",
+            "karmaConfig": "./karma.conf.js",
+            "polyfills": "checkpoints/checkpoint4/begin/src/polyfills.ts",
+            "scripts": [],
+            "styles": [
+              "checkpoints/checkpoint4/begin/src/styles.scss"
+            ],
+            "assets": [
+              "checkpoints/checkpoint4/begin/src/assets",
+              "checkpoints/checkpoint4/begin/src/favicon.ico"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "src/tsconfig.app.json",
+              "src/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "cp4-end": {
+      "root": "",
+      "sourceRoot": "checkpoints/checkpoint4/end/src",
+      "projectType": "application",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist",
+            "index": "checkpoints/checkpoint4/end/src/index.html",
+            "main": "checkpoints/checkpoint4/end/src/main.ts",
+            "tsConfig": "checkpoints/checkpoint4/end/src/tsconfig.app.json",
+            "polyfills": "checkpoints/checkpoint4/end/src/polyfills.ts",
+            "assets": [
+              "checkpoints/checkpoint4/end/src/assets",
+              "checkpoints/checkpoint4/end/src/favicon.ico"
+            ],
+            "styles": [
+              "checkpoints/checkpoint4/end/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "cp4-end:build"
+          },
+          "configurations": {}
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "cp4-end:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "checkpoints/checkpoint4/end/src/undefined",
+            "karmaConfig": "./karma.conf.js",
+            "polyfills": "checkpoints/checkpoint4/end/src/polyfills.ts",
+            "scripts": [],
+            "styles": [
+              "checkpoints/checkpoint4/end/src/styles.scss"
+            ],
+            "assets": [
+              "checkpoints/checkpoint4/end/src/assets",
+              "checkpoints/checkpoint4/end/src/favicon.ico"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "src/tsconfig.app.json",
+              "src/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "cp5-begin": {
+      "root": "",
+      "sourceRoot": "checkpoints/checkpoint5/begin/src",
+      "projectType": "application",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist",
+            "index": "checkpoints/checkpoint5/begin/src/index.html",
+            "main": "checkpoints/checkpoint5/begin/src/main.ts",
+            "tsConfig": "checkpoints/checkpoint5/begin/src/tsconfig.app.json",
+            "polyfills": "checkpoints/checkpoint5/begin/src/polyfills.ts",
+            "assets": [
+              "checkpoints/checkpoint5/begin/src/assets",
+              "checkpoints/checkpoint5/begin/src/favicon.ico"
+            ],
+            "styles": [
+              "checkpoints/checkpoint5/begin/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "cp5-begin:build"
+          },
+          "configurations": {}
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "cp5-begin:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "checkpoints/checkpoint5/begin/src/undefined",
+            "karmaConfig": "./karma.conf.js",
+            "polyfills": "checkpoints/checkpoint5/begin/src/polyfills.ts",
+            "scripts": [],
+            "styles": [
+              "checkpoints/checkpoint5/begin/src/styles.scss"
+            ],
+            "assets": [
+              "checkpoints/checkpoint5/begin/src/assets",
+              "checkpoints/checkpoint5/begin/src/favicon.ico"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "src/tsconfig.app.json",
+              "src/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "cp5-end": {
+      "root": "",
+      "sourceRoot": "checkpoints/checkpoint5/end/src",
+      "projectType": "application",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist",
+            "index": "checkpoints/checkpoint5/end/src/index.html",
+            "main": "checkpoints/checkpoint5/end/src/main.ts",
+            "tsConfig": "checkpoints/checkpoint5/end/src/tsconfig.app.json",
+            "polyfills": "checkpoints/checkpoint5/end/src/polyfills.ts",
+            "assets": [
+              "checkpoints/checkpoint5/end/src/assets",
+              "checkpoints/checkpoint5/end/src/favicon.ico"
+            ],
+            "styles": [
+              "checkpoints/checkpoint5/end/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "cp5-end:build"
+          },
+          "configurations": {}
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "cp5-end:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "checkpoints/checkpoint5/end/src/undefined",
+            "karmaConfig": "./karma.conf.js",
+            "polyfills": "checkpoints/checkpoint5/end/src/polyfills.ts",
+            "scripts": [],
+            "styles": [
+              "checkpoints/checkpoint5/end/src/styles.scss"
+            ],
+            "assets": [
+              "checkpoints/checkpoint5/end/src/assets",
+              "checkpoints/checkpoint5/end/src/favicon.ico"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "src/tsconfig.app.json",
+              "src/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "cp6-begin": {
+      "root": "",
+      "sourceRoot": "checkpoints/checkpoint6/begin/src",
+      "projectType": "application",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist",
+            "index": "checkpoints/checkpoint6/begin/src/index.html",
+            "main": "checkpoints/checkpoint6/begin/src/main.ts",
+            "tsConfig": "checkpoints/checkpoint6/begin/src/tsconfig.app.json",
+            "polyfills": "checkpoints/checkpoint6/begin/src/polyfills.ts",
+            "assets": [
+              "checkpoints/checkpoint6/begin/src/assets",
+              "checkpoints/checkpoint6/begin/src/favicon.ico"
+            ],
+            "styles": [
+              "checkpoints/checkpoint6/begin/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "cp6-begin:build"
+          },
+          "configurations": {}
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "cp6-begin:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "checkpoints/checkpoint6/begin/src/undefined",
+            "karmaConfig": "./karma.conf.js",
+            "polyfills": "checkpoints/checkpoint6/begin/src/polyfills.ts",
+            "scripts": [],
+            "styles": [
+              "checkpoints/checkpoint6/begin/src/styles.scss"
+            ],
+            "assets": [
+              "checkpoints/checkpoint6/begin/src/assets",
+              "checkpoints/checkpoint6/begin/src/favicon.ico"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "src/tsconfig.app.json",
+              "src/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "cp6-end": {
+      "root": "",
+      "sourceRoot": "checkpoints/checkpoint6/end/src",
+      "projectType": "application",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist",
+            "index": "checkpoints/checkpoint6/end/src/index.html",
+            "main": "checkpoints/checkpoint6/end/src/main.ts",
+            "tsConfig": "checkpoints/checkpoint6/end/src/tsconfig.app.json",
+            "polyfills": "checkpoints/checkpoint6/end/src/polyfills.ts",
+            "assets": [
+              "checkpoints/checkpoint6/end/src/assets",
+              "checkpoints/checkpoint6/end/src/favicon.ico"
+            ],
+            "styles": [
+              "checkpoints/checkpoint6/end/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "cp6-end:build"
+          },
+          "configurations": {}
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "cp6-end:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "checkpoints/checkpoint6/end/src/undefined",
+            "karmaConfig": "./karma.conf.js",
+            "polyfills": "checkpoints/checkpoint6/end/src/polyfills.ts",
+            "scripts": [],
+            "styles": [
+              "checkpoints/checkpoint6/end/src/styles.scss"
+            ],
+            "assets": [
+              "checkpoints/checkpoint6/end/src/assets",
+              "checkpoints/checkpoint6/end/src/favicon.ico"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "src/tsconfig.app.json",
+              "src/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "cp7-begin": {
+      "root": "",
+      "sourceRoot": "checkpoints/checkpoint7/begin/src",
+      "projectType": "application",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist",
+            "index": "checkpoints/checkpoint7/begin/src/index.html",
+            "main": "checkpoints/checkpoint7/begin/src/main.ts",
+            "tsConfig": "checkpoints/checkpoint7/begin/src/tsconfig.app.json",
+            "polyfills": "checkpoints/checkpoint7/begin/src/polyfills.ts",
+            "assets": [
+              "checkpoints/checkpoint7/begin/src/assets",
+              "checkpoints/checkpoint7/begin/src/favicon.ico"
+            ],
+            "styles": [
+              "checkpoints/checkpoint7/begin/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "cp7-begin:build"
+          },
+          "configurations": {}
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "cp7-begin:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "checkpoints/checkpoint7/begin/src/undefined",
+            "karmaConfig": "./karma.conf.js",
+            "polyfills": "checkpoints/checkpoint7/begin/src/polyfills.ts",
+            "scripts": [],
+            "styles": [
+              "checkpoints/checkpoint7/begin/src/styles.scss"
+            ],
+            "assets": [
+              "checkpoints/checkpoint7/begin/src/assets",
+              "checkpoints/checkpoint7/begin/src/favicon.ico"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "src/tsconfig.app.json",
+              "src/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "cp7-end": {
+      "root": "",
+      "sourceRoot": "checkpoints/checkpoint7/end/src",
+      "projectType": "application",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist",
+            "index": "checkpoints/checkpoint7/end/src/index.html",
+            "main": "checkpoints/checkpoint7/end/src/main.ts",
+            "tsConfig": "checkpoints/checkpoint7/end/src/tsconfig.app.json",
+            "polyfills": "checkpoints/checkpoint7/end/src/polyfills.ts",
+            "assets": [
+              "checkpoints/checkpoint7/end/src/assets",
+              "checkpoints/checkpoint7/end/src/favicon.ico"
+            ],
+            "styles": [
+              "checkpoints/checkpoint7/end/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "cp7-end:build"
+          },
+          "configurations": {}
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "cp7-end:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "checkpoints/checkpoint7/end/src/undefined",
+            "karmaConfig": "./karma.conf.js",
+            "polyfills": "checkpoints/checkpoint7/end/src/polyfills.ts",
+            "scripts": [],
+            "styles": [
+              "checkpoints/checkpoint7/end/src/styles.scss"
+            ],
+            "assets": [
+              "checkpoints/checkpoint7/end/src/assets",
+              "checkpoints/checkpoint7/end/src/favicon.ico"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "src/tsconfig.app.json",
+              "src/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "cp5-end",
+  "schematics": {
+    "@schematics/angular:component": {
+      "prefix": "sc",
+      "styleext": "scss"
+    },
+    "@schematics/angular:directive": {
+      "prefix": "sc"
+    }
+  }
+}
