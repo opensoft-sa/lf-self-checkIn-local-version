@@ -50,7 +50,7 @@ This guide is divided in six checkpoints:
 - Add form's actions to the LF application
 - Add internationalization features in your LF application
 
-##Checkpoint 1
+## Checkpoint 1
 
 _**Goal:** Define the structure of the application_
 
@@ -283,7 +283,7 @@ and put it inside the reservation-detail.schema
     	
 If you are using the StackBlitz version you can check the final solution <a href="https://stackblitz.com/github/opensoft-sa/lf-self-checkin/tree/cp1-end"  target="_blank"> here </a>, but try to do it by yourself :)
 
-##Checkpoint 2
+## Checkpoint 2
 
 _**Goal:** Fill the form components with LF fields_
 
@@ -354,7 +354,7 @@ _**Goal:** Fill the form components with LF fields_
 
 If you are using the StackBlitz version you can check the final solution <a href="https://stackblitz.com/github/opensoft-sa/lf-self-checkin/tree/cp2-end"  target="_blank"> here </a>
 
-##Checkpoint 3
+## Checkpoint 3
 
 _**Goal:** Implement schema specifications for the LF fields_
 
@@ -431,7 +431,7 @@ _**Goal:** Implement schema specifications for the LF fields_
 
 If you are using the StackBlitz version you can check the final solution <a href="https://stackblitz.com/github/opensoft-sa/lf-self-checkin/tree/cp3-end"  target="_blank"> here </a>.
 
-##CheckPoint 4
+## CheckPoint 4
 
 _**Goal:** Implement LF fields with computed values_
 
@@ -490,7 +490,7 @@ _**Goal:** Implement LF fields with computed values_
 
 If you are using the StackBlitz version you can check the final solution <a href="https://stackblitz.com/github/opensoft-sa/lf-self-checkin/tree/cp4-end"  target="_blank"> here </a>.
 
-##Checkpoint 5
+## Checkpoint 5
 
 _**Goal:** Customize values display_
 
@@ -531,7 +531,7 @@ _**Goal:** Customize values display_
 
 If you are using the StackBlitz version you can check the final solution <a href="https://stackblitz.com/github/opensoft-sa/lf-self-checkin/tree/cp5-end"  target="_blank"> here </a>.
 
-##Checkpoint 6
+## Checkpoint 6
 
 _**Goal:** Add form's actions to the LF application_
 
@@ -618,7 +618,7 @@ _**Goal:** Add form's actions to the LF application_
 
 If you are using the StackBlitz version you can check the final solution <a href="https://stackblitz.com/github/opensoft-sa/lf-self-checkin/tree/cp6-end" target="_blank"> here </a>.
 
-##Checkpoint 7
+## Checkpoint 7
 
 _**Goal:** Add language options to the LF application_
 
