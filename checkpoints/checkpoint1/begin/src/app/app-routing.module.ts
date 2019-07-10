@@ -2,7 +2,6 @@ import {NgModule} from '@angular/core';
 import {RouterModule} from '@angular/router';
 import {LfRoutes, LF_ROUTER_BASE_PATH} from '@lightweightform/core';
 
-
 /**
  * Application routes.
  */

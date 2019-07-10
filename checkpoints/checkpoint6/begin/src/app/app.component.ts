@@ -5,10 +5,9 @@ import {AppComponent as LfAppComponent} from '@lightweightform/bootstrap-theme';
 @Component({
   selector: 'sc-root',
   templateUrl: './app.component.html',
-  styleUrls: ["./app.component.scss"],
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-
   actions = [
     {
       id: 'save',
@@ -31,7 +30,7 @@ export class AppComponent {
       id: 'validate',
       style: 'outline-danger',
       icon: 'check-square-o',
-      callback: () => alert('validate not implemented') //TODO CP6: Implement validate action
+      callback: () => alert('validate not implemented'), //TODO CP6: Implement validate action
     },
     {
       text: 'Submit',
@@ -43,7 +42,7 @@ export class AppComponent {
     },
   ];
 
-  @ViewChild(LfAppComponent) private lfApp: LfAppComponent;
+  @ViewChild(LfAppComponent, {static: false}) private lfApp: LfAppComponent;
 
   constructor(
     public lfStorage: LfStorage,
@@ -51,21 +50,20 @@ export class AppComponent {
     private lfFileStorage: LfFileStorage,
   ) {}
 
-
   submit() {
     if (this.lfStorage.shouldShowError()) {
       console.log(this.lfStorage.shouldShowError());
-      fetch("https://selfcheckin.opensoft.pt/reservations", {
-        method: "POST",
+      fetch('https://selfcheckin.opensoft.pt/reservations', {
+        method: 'POST',
         headers: {
-          "Content-Type": "application/json"
+          'Content-Type': 'application/json',
         },
-        body: JSON.stringify(this.lfStorage.getAsJSON()),
-        mode: "cors"
+        body: JSON.stringify(this.lfStorage.getAsJS()),
+        mode: 'cors',
       })
         .then(response => {
           console.log(response);
-          alert("Check-in successful. Enjoy your stay.");
+          alert('Check-in successful. Enjoy your stay.');
         })
         .catch(ex => {
           console.log(ex);
